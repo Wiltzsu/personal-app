@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.TodoFragment"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yourNotes"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Your To-Do List"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="monospace"/>
+
+        <EditText
+            android:id="@+id/etTodo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add new todo"
+            android:minHeight="48dp"
+            android:fontFamily="monospace"/>
+
+        <Button
+            android:id="@+id/btnAddTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/navy_blue"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/lvTodos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+    </LinearLayout>
+</FrameLayout>

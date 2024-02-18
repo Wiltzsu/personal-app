@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.NotesFragment"
+    android:background="@drawable/bg_gradient">
+
+<TextView
+android:id="@+id/yourNotes"
+android:layout_width="match_parent"
+android:layout_height="56dp"
+android:text="Your notes"
+    android:fontFamily="monospace"
+android:textSize="34sp"
+android:textStyle="bold"
+android:gravity="center"
+android:paddingBottom="8dp"/> <!-- Adjust as needed -->
+
+<Button
+android:id="@+id/btnAddNote"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Add Note"
+android:backgroundTint="@color/navy_blue"
+android:layout_marginTop="8dp"/> <!-- Added margin -->
+
+<Button
+android:id="@+id/btnClearNotes"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Clear Notes"
+android:backgroundTint="@color/navy_blue"
+android:layout_marginTop="8dp"/> <!-- Added margin -->
+
+<ListView
+android:id="@+id/lvNotes"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="1"
+    android:padding="6dp"
+    android:fontFamily="monospace"/>
+    </LinearLayout>

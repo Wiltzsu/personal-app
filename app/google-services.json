@@ -1,0 +1,50 @@
+
+{
+  "project_info": {
+    "project_number": "758203439151",
+    "firebase_url": "https://personalapp-2e610-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "personalapp-2e610",
+    "storage_bucket": "personalapp-2e610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758203439151:android:2dd2d3499c55261f1d4eda",
+        "android_client_info": {
+          "package_name": "com.company.personalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjzpmTSiP_zw0Aw18Zm21GbZQEgq-e1es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758203439151:android:6ab4924b1c9954551d4eda",
+        "android_client_info": {
+          "package_name": "com.example.personalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjzpmTSiP_zw0Aw18Zm21GbZQEgq-e1es"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
